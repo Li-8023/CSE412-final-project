@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompleteOrderViewController">
+   <children>
+      <Text layoutX="150.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your order is complete!">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="backHomeButton" layoutX="233.0" layoutY="282.0" mnemonicParsing="false" onAction="#switchToCategory" text="Back to home page!" textFill="#01161e" />
+      <ImageView fitHeight="144.0" fitWidth="157.0" layoutX="221.0" layoutY="56.0">
+         <image>
+            <Image url="@img/istockphoto-1125716911-612x612.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

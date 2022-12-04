@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreateAccountViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/thom-bradley-mwa_nzFpnJw-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="300.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account" wrappingWidth="184.1474609375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fnameTxtFld" layoutX="300.0" layoutY="81.0" prefHeight="26.0" prefWidth="130.0" promptText="Firstname" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <TextField fx:id="lnameTxtFld" layoutX="436.0" layoutY="81.0" prefHeight="26.0" prefWidth="130.0" promptText="Lastname" />
+      <TextField fx:id="emailTxtFld" layoutX="300.0" layoutY="114.0" prefHeight="26.0" prefWidth="267.0" promptText="Email" />
+      <PasswordField fx:id="passTxtFld" layoutX="300.0" layoutY="179.0" prefHeight="26.0" prefWidth="267.0" promptText="Password" />
+      <PasswordField fx:id="confirmPassTxtFld" layoutX="300.0" layoutY="213.0" prefHeight="26.0" prefWidth="267.0" promptText="Confirm password" />
+      <Button fx:id="submitButton" layoutX="402.0" layoutY="266.0" mnemonicParsing="false" onAction="#submitClicked" text="Submit" />
+      <Label fx:id="passLbl" layoutX="300.0" layoutY="213.0" textFill="#f25959">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addressTxtFld" layoutX="300.0" layoutY="146.0" prefHeight="26.0" prefWidth="267.0" promptText="Shipping address" />
+      <Text fx:id="prompt" fill="#e90707" layoutX="303.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="266.9999957084656" />
+      <Text fx:id="passText" fill="#e90a0a" layoutX="298.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.00006103515625" />
+   </children>
+</Pane>

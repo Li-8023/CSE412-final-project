@@ -3,4 +3,4 @@ Group#: 6
 
 Team Member: Li He, Siyi Hu, Ailun Pei, Adeline Trisnobuwono
 
-This application is an online shopping
+This project is a desktop app for an online shopping application, created using javafx and utilizing postgresql database. 
